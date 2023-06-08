@@ -1,0 +1,53 @@
+//  @author GTStudio
+//  @copyright Copyright (c) 2023 GTStudio
+
+.darkmode {
+  &-toggle {
+    z-index: 500;
+  }
+
+  &--activated {
+    .page-title,
+    .admin__control-support-text,
+    .accordion .admin__collapsible-block > a,
+    a,
+    h1,
+    h2,
+    span,
+    label,
+    strong,
+    p {
+      color: #c8c8c8;
+      isolation: isolate;
+    }
+
+    .admin__page-nav,
+    .page-actions._fixed,
+    .sticky-header {
+      background: #000;
+      isolation: isolate;
+    }
+
+    .admin__page-nav-link:hover {
+      background: #303030;
+    }
+
+    .data-row {
+      & > td {
+        background: #a9a9a9;
+      }
+
+      &._odd-row > td {
+        background: #808080;
+      }
+    }
+
+    .admin__control-text,
+    .action-select,
+    .admin__action-dropdown {
+      background: #e3e3e3;
+      color: #514943;
+      isolation: isolate;
+    }
+  }
+}

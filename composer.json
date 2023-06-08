@@ -1,0 +1,21 @@
+{
+  "name": "gtstudio/module-dark-admin",
+  "version": "1.0.0",
+  "description": "Add darkmode functionality on admin",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "magento/module-backend": "102.0.*"
+  },
+  "license": [
+    "Massachusetts Institute of Technology License (MITL)"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Gtstudio\\DarkAdmin\\": ""
+    }
+  }
+}
